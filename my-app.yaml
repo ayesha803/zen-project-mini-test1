@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ayeshadockerhub/my-brain-app-image:v1 
+        image: ayeshadockerhub/my-brain-app-image:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
